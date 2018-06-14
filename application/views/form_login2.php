@@ -22,10 +22,10 @@
     <meta name="author" content="Muhammad Usman">
 
     <!-- The styles -->
-    <link id="bs-css" href="css/bootstrap-cerulean.min.css" rel="stylesheet">
+    <link id="bs-css" href="<?php echo base_url(); ?>css/bootstrap-cerulean.min.css" rel="stylesheet">
 
     <link href="<?php echo base_url(); ?>css/charisma-app.css" rel="stylesheet">
-    <link href='<?php echo base_url(); ?><?php echo base_url(); ?>bower_components/fullcalendar/dist/fullcalendar.css' rel='stylesheet'>
+    <link href='<?php echo base_url(); ?>bower_components/fullcalendar/dist/fullcalendar.css' rel='stylesheet'>
     <link href='<?php echo base_url(); ?>bower_components/fullcalendar/dist/fullcalendar.print.css' rel='stylesheet' media='print'>
     <link href='<?php echo base_url(); ?>bower_components/chosen/chosen.min.css' rel='stylesheet'>
     <link href='<?php echo base_url(); ?>bower_components/colorbox/example3/colorbox.css' rel='stylesheet'>
@@ -40,7 +40,7 @@
     <link href='<?php echo base_url(); ?>css/animate.min.css' rel='stylesheet'>
 
     <!-- jQuery -->
-    <script src="<?php echo base_url();?><?php echo base_url();?>bower_components/jquery/jquery.min.js"></script>
+    <script src="<?php echo base_url();?>bower_components/jquery/jquery.js"></script>
 
     <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -68,7 +68,7 @@
             <div class="alert alert-info">
                 Please login with your Username and Password.
             </div>
-             <form class="form-horizontal" action="<?php echo base_url()?>login/auth_false" method="post">
+             <form class="form-horizontal" action="<?php echo site_url()?>login/auth_false" method="post">
                 <fieldset>
                     <div class="input-group input-group-lg">
                         <span class="input-group-addon"><i class="glyphicon glyphicon-user red"></i></span>
