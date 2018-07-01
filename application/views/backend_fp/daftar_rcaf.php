@@ -37,7 +37,7 @@
 	</td>
 	
 	<td>
-	<?php echo .$no; ?>
+	<?php echo $no; ?>
 	</td>
 	
 	<td>
